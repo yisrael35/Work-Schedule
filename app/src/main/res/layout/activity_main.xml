@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ACABAB"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/edUserName"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="22dp"
+            android:background="#ACABAB"
+            android:padding="10dp"
+            android:text="@string/Login"
+            android:textSize="42dp" />
+
+        <EditText
+            android:id="@+id/edUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btLogin"
+            android:layout_alignStart="@+id/edPassword"
+            android:layout_alignLeft="@+id/edPassword"
+            android:layout_marginBottom="55dp"
+            android:ems="10"
+            android:hint="@string/user_name"
+            android:inputType="none"
+            android:padding="10dp"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="129dp" />
+
+        <EditText
+            android:id="@+id/edPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="199dp"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/btLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edPassword"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:background="#982D2D"
+            android:onClick="mainClick"
+            android:text="@string/login"
+            tools:text="login" />
+
+        <Button
+            android:id="@+id/btRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btLogin"
+            android:layout_alignStart="@+id/btLogin"
+            android:layout_alignLeft="@+id/btLogin"
+            android:layout_marginTop="22dp"
+            android:background="#4CAF50"
+            android:onClick="mainClick"
+            android:text="@string/register" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

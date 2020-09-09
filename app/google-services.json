@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "234117780479",
+    "firebase_url": "https://workschedule-8c2ff.firebaseio.com",
+    "project_id": "workschedule-8c2ff",
+    "storage_bucket": "workschedule-8c2ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234117780479:android:49e170941d76ef5a",
+        "android_client_info": {
+          "package_name": "yisraelbar.com.workschedule"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234117780479-0sjmbdfhhcjqb5f160cd8r8cu36ms53v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "yisraelbar.com.workschedule",
+            "certificate_hash": "b99c76343f07f5bae63439e92dbd2942a06762df"
+          }
+        },
+        {
+          "client_id": "234117780479-squgqv0e9eeaciqkojb0oiqb7iljc4ra.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQHNDRCa8e7K5Dbh7ZGONNEEE6UIoXvL4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234117780479-squgqv0e9eeaciqkojb0oiqb7iljc4ra.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
